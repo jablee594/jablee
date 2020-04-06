@@ -12,11 +12,16 @@ body {
   padding: 0;
 }
 
+.menu{
+  height: 100px;
+	display: inline-block;
+	width: 30%;
+}
+
 .header {
   display: flex;
   min-height: 1vh;
   padding: 8px 5px;
-  background-color:  #2fb92a;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -37,13 +42,11 @@ body {
 }
 
 .content{
-    background-color: #2fb92a;
     color: #ffffff;
 }
 
 .nav {
     height: 100px;
-    background-color: #2fb92a;
 }
 
 .nav ul {
