@@ -13,15 +13,11 @@ body {
 }
 
 .menu{
-  height: 100px;
-	display: inline-block;
-	width: 30%;
+  display: inline-block;
 }
 
 .header {
-  display: flex;
-  min-height: 1vh;
-  padding: 8px 5px;
+  padding: 8px 50px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -30,23 +26,15 @@ body {
 .header__title {
   transform: translateX(0);
   animation-name: header_anim;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
   animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   text-transform: uppercase;
-  color: rgb(255, 255, 255);
-  align-self: center;
-}
-
-.nav{
-    display: flex;
-}
-
-.content{
-    color: #ffffff;
+  color: #000000;
 }
 
 .nav {
-    height: 100px;
+  height: 100px;
+  width: 100%;
 }
 
 .nav ul {
@@ -60,13 +48,7 @@ body {
 }
 
 .nav ul li a {
-	display: block;
 	padding: 12px 50px;
-    color: #ffffff;
-    font-family: "PT Sans Narrow";
-    font-size: 19px;
-    font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: none;
 }
-
