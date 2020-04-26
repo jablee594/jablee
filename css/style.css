@@ -1,0 +1,124 @@
+/* keyframes */
+@keyframes header_anim {
+    from {
+      transform: translateX(-120%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+/*body*/
+
+html, body
+{
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #2b2b2b;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11pt;
+	font-weight: 300;
+	color: #6c6c6c
+}
+/*header*/
+
+.container
+{
+	margin: 0px auto;
+	width: 1200px;
+}
+
+p, ol, ul
+{
+	margin-top: 0;
+}
+
+ol, ul
+{
+	padding: 0;
+	list-style: none;
+}
+
+#header
+{
+	position: relative;
+	height: 100px;
+}
+
+.header__title {
+    transform: translateX(0);
+    animation-name: header_anim;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+#title
+{
+	position: absolute;
+	top: 1em;
+	width: 100%;
+}
+
+/*menu*/
+
+#menu
+{
+	position: absolute;
+	right: 0;
+	top: 1.6em;
+}
+
+#menu ul
+{
+	display: inline-block;
+}
+
+#menu li
+{
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+#menu li a
+{
+	display: inline-block;
+	margin-left: 1px;
+	padding: 1em 1.5em 0em 1.5em;
+	letter-spacing: 0.10em;
+	text-decoration: none;
+	font-size: 1em;
+	text-transform: uppercase;
+	outline: 0;
+	color: #FFF;
+}
+
+/*content*/
+/*basement*/
+/*button*/
+
+.button
+{
+
+}
+
+.button:hover
+{
+
+}
+
+.button:active
+{
+
+}
+
+.button-big
+{
+
+}
