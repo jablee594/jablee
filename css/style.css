@@ -22,7 +22,6 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 11pt;
 	font-weight: 300;
-	color: #6c6c6c
 }
 /*header*/
 
@@ -100,8 +99,33 @@ ol, ul
 }
 
 /*content*/
-/*basement*/
-/*button*/
+
+#content_container {
+	margin-left:auto;
+	margin-right:auto;
+	width:900px;
+	height: 750px;
+	color: #ffffff;
+}
+
+/*copyright*/
+
+#copyright_block {
+	margin-left:auto;
+	margin-right:auto;
+	width: 900px;
+	color:#ffffff;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.qr:hover
+{
+height: 200;
+width: 200;
+}
+
+/*button
 
 .button
 {
@@ -111,14 +135,4 @@ ol, ul
 .button:hover
 {
 
-}
-
-.button:active
-{
-
-}
-
-.button-big
-{
-
-}
+}*/
