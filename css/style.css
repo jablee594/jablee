@@ -100,7 +100,8 @@ ol, ul
 
 /*content*/
 
-#content_container {
+#content_container 
+{
 	margin-left:auto;
 	margin-right:auto;
 	width:900px;
@@ -114,25 +115,58 @@ ol, ul
 	margin-left:auto;
 	margin-right:auto;
 	width: 900px;
+	height: 200px;
 	color:#ffffff;
 	margin-top:10px;
 	margin-bottom:10px;
+	border-top: 1px solid rgba(255,255,255,0.08);
 }
 
-.qr:hover
+.copyright
 {
-height: 200;
-width: 200;
+	overflow: hidden;
+	padding: 2em 0em 10em 0em;
 }
 
-/*button
+.qr_img
+{
+	position: absolute;
+}
+
+.copyright_text
+{
+	position: block;
+	float: right;
+	
+}
+
+/*button*/
+
+#button
+{
+	position: relative;
+	margin-top: 20px;
+	text-align: center;
+}
 
 .button
 {
-
+	display: inline-block;
+	padding: 1.3em 3em;
+	background: #66cd66;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-o-transition: opacity 0.25s ease-in-out;
+	-ms-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;
+	letter-spacing: 0.20em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #FFF;
 }
 
 .button:hover
 {
-
-}*/
+	background: #86bd3b;
+}
